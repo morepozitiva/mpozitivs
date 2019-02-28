@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 body {
   background-color: #f9fafb !important;
 }
@@ -21,12 +19,6 @@ header {
   min-height: 100px;
 }
 
-.holder:hover .block {
-  opacity: 1;
-  transition: 1s;
-  font-weight: bold;
-}
-
 .block {
   position: absolute;
   left: 0;
@@ -36,10 +28,6 @@ header {
   background: rgba(255, 255, 255, 0.7);
   height: 0px;
   padding: 5px;
-  opacity: 0;
-  /*Элемент полностью прозрачный (невидимый)*/
-  transition: 1s;
-  /*Скорость перехода состояния элемента*/
 }
 
 /**/

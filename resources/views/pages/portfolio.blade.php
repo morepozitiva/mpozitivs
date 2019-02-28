@@ -14,7 +14,7 @@
    
   <img src="{{$portfolio->patchimg}}" class="card-img-top" alt="">
   <div class="card-body">
-    <h2>Описание работы</h2>
+   {{--  <h2>Описание работы</h2> --}}
     {{-- <a href="#clickme">Описание работы</a> --}}
     <!-- <h5 class="card-title"  data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Описание работы</h5> -->    
   {{-- <p>{{ $portfolio->title }}</p> --}}

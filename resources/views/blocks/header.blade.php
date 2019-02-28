@@ -6,9 +6,9 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link" href="{{URL('/')}}"><i class="fas fa-home"></i></a>      
-      <a class="nav-item nav-link" href="{{URL('portfolio')}}">Портфолио</a>
-      <a class="nav-item nav-link" href="{{URL('about')}}">Кто я</a>
+      <a class="nav-item nav-link" href="{{secure_url('/')}}"><i class="fas fa-home"></i></a>      
+      <a class="nav-item nav-link" href="{{secure_url('portfolio')}}">Портфолио</a>
+      <a class="nav-item nav-link" href="{{secure_url('about')}}">Кто я</a>
       <!-- <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
     </div>
   </div>
