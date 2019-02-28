@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Castle;
+// use Illuminate\Support\Facades\Redis;
 use Illuminate\Http\Request;
 
 class CastleController extends Controller

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Portfolio;
+// use Illuminate\Support\Facades\Redis;
 use Illuminate\Http\Request;
 
 class PortfolioController extends Controller
