@@ -11,12 +11,14 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+mix.js('resources/js/app.js', 'public/js/app.min.js')
    .sass('resources/sass/app.scss', 'public/css');
-//    
+//  
+mix.js('resources/js/main.js', 'public/js/main.min.js');  
 mix.sass('resources/sass/style.scss', 'public/css/vendor');
 mix.styles([
-    'public/css/vendor/style.css',
-    'public/css/vendor/naviki.css',
-    'public/css/vendor/fons.css'
+    'resources/css/vendor/style.css',
+    'resources/css/vendor/naviki.css',
+    'resources/css/vendor/fons.css'
     ], 'public/css/all.css');
+mix.js('node_modules/jquery/src/jquery.js',  'public/js/vendor.js');

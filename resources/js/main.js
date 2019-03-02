@@ -1,11 +1,3 @@
-$.ajaxSetup({
-    headers: {
-        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-    }
-});
-
-
-
 $(document).ready(function(){
   $('body').append('<a href="#" id="go-top" title="Вверх">Вверх</a>');
   $('[data-toggle="tooltip"]').tooltip({html:true, trigger:"hover click"}); 
