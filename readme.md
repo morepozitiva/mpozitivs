@@ -1,8 +1,8 @@
 # mpozitivs
-(https://mpozitivs.herokuapp.com)[Портфолио написано на laravel в рамках обучения]
+[Портфолио] (https://mpozitivs.herokuapp.com) написано на laravel в рамках обучения
 
 ## Делалось на 
-+ Laravel (https://laravel.ru)
-+ Bootstrap 4.3.1 (getbootstrap.com)
-+ wow
-+animate.css
+1. Laravel (https://laravel.ru)
+2. Bootstrap 4.3.1 (https://getbootstrap.com)
+3. wow
+4. animate.css
