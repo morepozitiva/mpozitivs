@@ -1,4 +1,4 @@
-!(https://raw.githubusercontent.com/morepozitiva/mpozitivs/master/pozitivchiksr.jpg)
+![Альтернативный текст](https://raw.githubusercontent.com/morepozitiva/mpozitivs/master/pozitivchiksr.jpg)
 
 # Позитивчик))))
 [Портфолио](https://mpozitivs.herokuapp.com) написано на laravel в рамках обучения
