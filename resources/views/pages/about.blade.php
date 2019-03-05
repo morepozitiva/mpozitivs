@@ -1,7 +1,5 @@
 @extends('blocks.maine')
 @section('title', 'Чуток о себе')
-
-
 @section('name')
 Обо мне
 @endsection
@@ -9,7 +7,7 @@
 Совсем чуток о себе
 @endsection
 
-@section('content')
+@section('about')
     <h2 class="wow zoomIn" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="10">@yield('zagolovok')</h2>
     
 

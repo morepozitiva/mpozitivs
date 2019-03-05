@@ -1,9 +1,7 @@
 @extends('blocks.maine')
 @section('title', 'Позитивчик')
-
-@section('content')
-                <div id="home">
-                <p class="sometext"> Всегда, есть что-то новое, и интересное! Вот и сейчас, очень интересно, новый взгляд, новое все. Да не все получается, но впереди столько интересного, что, аж ДУХ ЗАХВАТЫВАЕТ</p>
+@section('home')
+<p class="sometext"> Всегда, есть что-то новое, и интересное! Вот и сейчас, очень интересно, новый взгляд, новое все. Да не все получается, но впереди столько интересного, что, аж ДУХ ЗАХВАТЫВАЕТ</p>
                 <hr>
                 <div class="links">
                     <a href="//morepozitiva.github.io" target="_blank">Мой сайт</a>
@@ -14,24 +12,21 @@
                 <hr>
                 <div class="titlep m-p-md">
                     Некоторые работы
-                </div>
-               <!--  <div class="row">
-                    @foreach ($castles as $castle)
-                    <div class="colls works"><img src="{{$castle->patchimgh}}" data-toggle="tooltip" title="{{ $castle->titleimg }} <br/> <div class='linksp'>{!! $castle->contenth !!}</div>"></div>
-                    @endforeach
-                </div> -->
+                </div>             
 <div class="castle">
  @foreach ($castles as $castle)
 <div class="card" style="width: 18rem;">
    
   <img src="{{$castle->patchimgh}}" class="card-img-top" alt="...">
-  <div class="card-body">
-    <!-- <h5 class="card-title"  data-toggle="collapse" data-target="#collapseExample" >Описание работы</h5> -->
-    
+  <div class="card-body">  
   <p>{{ $castle->titleimg }}</p></div>
     <div class="linksp">{!! $castle->contenth !!}</div>
   </div>
  @endforeach
 </div>
-            </div>
-@endsection
+{{-- <div class="castle">
+  <div class="col-sm mys"><h2><i class="fas fa-building"></i>&nbsp;Разработка сайтов</h2></div>
+  <div class="col-sm mys"><h2><i class="fas fa-font"></i>&nbsp;Наполнение и поддержка</h2></div>
+  <div class="col-sm"></div>
+</div>  --}}   
+@endsection             

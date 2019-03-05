@@ -24,6 +24,13 @@ $(document).ready(function(){
 
 });
 
+// 
+$(document).ready(function() {
+new WOW({
+            mobile: false
+        }).init();
+    });
+// 
 // naviki
     $(document).ready(function() {
         $('.skillbar').each(function() {
@@ -44,3 +51,36 @@ $(document).ready(function(){
         });
     });
     // naviki end
+    // 
+    // 
+    /*
+    ==========   Smooth Scroll To Section   ==========
+    */
+    $(document).ready(function() {
+        var links = $(".nav-link a");
+        var mobileLinks = $(".nav-link a");
+        // var singleButton = $(".choose-jalousie");
+
+        var doScroll = function(e) {
+            var goToClass = "." + e.target.dataset.goTo;
+            $('html, body').animate({
+                scrollTop: $(goToClass).offset().top
+            }, 500);
+        };
+        links.click(function(e) {
+            e.preventDefault();
+            doScroll(e);
+        });
+        // mobileLinks.click(function(e){
+        //     e.preventDefault();
+        //     doScroll(e);
+        //     $(".mobile-navigation__links").removeClass('mobile-navigation__links--visible');
+        // });
+        // singleButton.click(function(e){
+        //    e.preventDefault();
+        //    doScroll(e);
+        // });
+
+    });
+    // 
+    // 

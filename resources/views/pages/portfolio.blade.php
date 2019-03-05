@@ -1,10 +1,11 @@
 @extends('blocks.maine')
 @section('title', 'Портфолио')
-@section('name', 'Портфолио')
+@section('name')
+Портфолио
+@endsection
 
-@section('content')
+@section('works')
 
-<div id="portfolio">
     <div class="title m-b-md">
                     То что сделано!!!
     </div>
@@ -22,9 +23,9 @@
 <div class="block">
 {{ $portfolio->title }}
 
-
-</div></div>
 <div class="linksp">{!! $portfolio->contents !!}</div>
+</div></div>
+
     {{--  --}}
 </div>
     
@@ -32,6 +33,5 @@
 
 </div> 
  @endforeach
-</div>
 </div>
 @endsection

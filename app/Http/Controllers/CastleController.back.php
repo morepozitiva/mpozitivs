@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Portfolio;
+use App\Castle;
 // use Illuminate\Support\Facades\Redis;
 use Illuminate\Http\Request;
 
-class PortfolioController extends Controller
+class CastleController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,9 +17,8 @@ class PortfolioController extends Controller
     public function index()
     {
         //
-        $portfolios = Portfolio::all();
-        // return view('pages.portfolio');
-        return view('pages.portfolio', compact('portfolios'));
+        $castles = Castle::all();
+        return view('pages.castle', compact('castles'));
     }
 
     /**
@@ -45,10 +45,10 @@ class PortfolioController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Portfolio  $portfolio
+     * @param  \App\Castle  $castle
      * @return \Illuminate\Http\Response
      */
-    public function show(Portfolio $portfolio)
+    public function show(Castle $castle)
     {
         //
     }
@@ -56,10 +56,10 @@ class PortfolioController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Portfolio  $portfolio
+     * @param  \App\Castle  $castle
      * @return \Illuminate\Http\Response
      */
-    public function edit(Portfolio $portfolio)
+    public function edit(Castle $castle)
     {
         //
     }
@@ -68,10 +68,10 @@ class PortfolioController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Portfolio  $portfolio
+     * @param  \App\Castle  $castle
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Portfolio $portfolio)
+    public function update(Request $request, Castle $castle)
     {
         //
     }
@@ -79,10 +79,10 @@ class PortfolioController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Portfolio  $portfolio
+     * @param  \App\Castle  $castle
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Portfolio $portfolio)
+    public function destroy(Castle $castle)
     {
         //
     }

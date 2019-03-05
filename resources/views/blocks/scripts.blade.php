@@ -4,6 +4,6 @@
 <script defer src="//use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
 <script src="js/main.min.js"></script>
 <script src="js/wow/wow.js"></script>
-<script>
+{{-- <script>
   new WOW().init();
-</script>
+</script> --}}

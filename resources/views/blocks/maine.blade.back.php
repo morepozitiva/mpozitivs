@@ -5,23 +5,11 @@
 @include('blocks.header')
 
 <maine class="maine">
-    <section class="home">
-    @yield('home')
-    {{-- @include('pages.castle') --}}
-    </section>
-    <section class="works">
-    @yield('works')
-    </section>
-    <section class="about">
-    @yield('about')
-    {{-- @include('pages.about') --}}
-    </section>
-     {{-- @include('pages.castle')  --}}  
-    
-    
+    @yield('content')
 </maine>
 <footer class="footer">
     <p>Создано с любовью morepozitiva!!!!&nbsp; {{ date('Y') }}</p>
+
 </footer>
 </body>
 @include('blocks.scripts')
